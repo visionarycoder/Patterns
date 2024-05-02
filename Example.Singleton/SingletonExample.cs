@@ -14,6 +14,7 @@ public class SingletonExample
 
     public static SingletonExample Instance
     {
+
         get
         {
             lock (padlock)
@@ -22,6 +23,7 @@ public class SingletonExample
             }
             return instance;
         }
+
     }
 
 }
